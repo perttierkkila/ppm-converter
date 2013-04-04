@@ -127,7 +127,7 @@
 <text x="45.085" y="42.3164" size="2.54" layer="22" rot="MR90">+</text>
 <text x="45.085" y="44.8564" size="2.54" layer="22" rot="MR90">-</text>
 <text x="41.656" y="45.974" size="1.778" layer="26" rot="MR0">PWM</text>
-<text x="40.2082" y="2.3622" size="1.778" layer="26" rot="MR180">S.Bus</text>
+<text x="39.624" y="1.9558" size="1.778" layer="26" rot="MR180">S.Bus</text>
 <text x="32.385" y="3.556" size="1.778" layer="26" rot="MR90">PWM/S.Bus to PPM -converter</text>
 <text x="19.558" y="9.398" size="1.778" layer="26" rot="MR90">Pertti Erkkilä 2013</text>
 <wire x1="2.54" y1="0" x2="45.72" y2="0" width="0" layer="20"/>
@@ -917,8 +917,8 @@ design rules under a new name.</description>
 <contactref element="C1" pad="2"/>
 <contactref element="C2" pad="2"/>
 <polygon width="0.6096" layer="16" isolate="0.4064">
-<vertex x="-2.54" y="52.07"/>
-<vertex x="50.8" y="52.07"/>
+<vertex x="-2.54" y="50.8"/>
+<vertex x="50.8" y="50.8"/>
 <vertex x="50.8" y="-2.54"/>
 <vertex x="-2.54" y="-2.54"/>
 </polygon>
@@ -940,9 +940,9 @@ design rules under a new name.</description>
 <signal name="N$2">
 <contactref element="CN1" pad="D-"/>
 <contactref element="CN2" pad="D-"/>
-<wire x1="3.81" y1="15.24" x2="3.81" y2="21.59" width="0.6096" layer="16"/>
-<wire x1="3.81" y1="15.24" x2="9.16" y2="9.89" width="0.6096" layer="16"/>
-<wire x1="9.16" y1="9.89" x2="10.33" y2="9.89" width="0.6096" layer="16"/>
+<wire x1="3.81" y1="13.97" x2="3.81" y2="21.59" width="0.6096" layer="16"/>
+<wire x1="3.81" y1="13.97" x2="7.89" y2="9.89" width="0.6096" layer="16"/>
+<wire x1="7.89" y1="9.89" x2="10.33" y2="9.89" width="0.6096" layer="16"/>
 <wire x1="10.33" y1="26.908" x2="9.128" y2="26.908" width="0.6096" layer="16"/>
 <wire x1="9.128" y1="26.908" x2="3.81" y2="21.59" width="0.6096" layer="16"/>
 </signal>
@@ -1116,8 +1116,8 @@ design rules under a new name.</description>
 <polygon width="0.6096" layer="1" isolate="0.4064">
 <vertex x="-1.27" y="-1.27"/>
 <vertex x="49.53" y="-1.27"/>
-<vertex x="49.53" y="50.8"/>
-<vertex x="-1.27" y="50.8"/>
+<vertex x="49.53" y="49.53"/>
+<vertex x="-1.27" y="49.53"/>
 </polygon>
 <contactref element="IC1" pad="14"/>
 <contactref element="IC2" pad="14"/>
