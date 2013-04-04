@@ -5120,6 +5120,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="LED" library="SparkFun-LED" deviceset="LED" device="5MM-KIT"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="AXIAL-0.3" value="LED"/>
+<part name="C5" library="SparkFun-Passives" deviceset="CAP" device="PTH" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -5176,6 +5177,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="LED" gate="G$1" x="35.56" y="40.64"/>
 <instance part="GND12" gate="1" x="35.56" y="30.48"/>
 <instance part="R3" gate="G$1" x="35.56" y="50.8" rot="R90"/>
+<instance part="C5" gate="G$1" x="132.08" y="76.2"/>
 </instances>
 <busses>
 </busses>
@@ -5228,6 +5230,10 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="127" y1="73.66" x2="127" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="127" y1="71.12" x2="121.92" y2="71.12" width="0.1524" layer="91"/>
 <junction x="121.92" y="71.12"/>
+<wire x1="127" y1="71.12" x2="132.08" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="71.12" x2="132.08" y2="73.66" width="0.1524" layer="91"/>
+<junction x="127" y="71.12"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
@@ -5544,6 +5550,10 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="116.84" y1="78.74" x2="116.84" y2="83.82" width="0.1524" layer="91"/>
 <junction x="116.84" y="83.82"/>
 <pinref part="P+6" gate="1" pin="VCC"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="127" y1="83.82" x2="132.08" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="83.82" x2="132.08" y2="81.28" width="0.1524" layer="91"/>
+<junction x="127" y="83.82"/>
 </segment>
 <segment>
 <pinref part="ISP" gate="G$1" pin="2"/>
