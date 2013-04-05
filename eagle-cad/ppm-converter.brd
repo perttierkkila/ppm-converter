@@ -900,11 +900,11 @@ design rules under a new name.</description>
 <element name="LED" library="SparkFun-LED" package="LED5MM-KIT" value="" x="15.24" y="44.45" smashed="yes">
 <attribute name="VALUE" x="18.4404" y="42.6466" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="R3" library="SparkFun-Passives" package="AXIAL-0.3" value="LED" x="13.97" y="35.56" smashed="yes" rot="R270">
-<attribute name="VALUE" x="14.478" y="34.417" size="1.016" layer="21" font="vector" ratio="15" rot="R90"/>
+<element name="R3" library="SparkFun-Passives" package="AXIAL-0.3" value="LED" x="13.335" y="35.56" smashed="yes" rot="R270">
+<attribute name="VALUE" x="13.843" y="34.2392" size="1.016" layer="21" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="C5" library="SparkFun-Passives" package="CAP-PTH-SMALL" value="0.1uF" x="34.29" y="1.27" smashed="yes" rot="R180">
-<attribute name="VALUE" x="31.496" y="2.794" size="0.8128" layer="27"/>
+<attribute name="VALUE" x="31.496" y="2.794" size="0.8128" layer="25"/>
 </element>
 </elements>
 <signals>
@@ -1178,7 +1178,8 @@ design rules under a new name.</description>
 <signal name="N$21">
 <contactref element="R3" pad="P$1"/>
 <contactref element="LED" pad="A"/>
-<wire x1="13.97" y1="39.37" x2="13.97" y2="44.45" width="0.6096" layer="1"/>
+<wire x1="13.335" y1="39.37" x2="13.335" y2="43.815" width="0.6096" layer="1"/>
+<wire x1="13.335" y1="43.815" x2="13.97" y2="44.45" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$31">
 <contactref element="U1" pad="23"/>
@@ -1187,8 +1188,8 @@ design rules under a new name.</description>
 <wire x1="17.78" y1="27.94" x2="19.05" y2="26.67" width="0.6096" layer="1"/>
 <wire x1="19.05" y1="26.67" x2="19.05" y2="21.59" width="0.6096" layer="1"/>
 <wire x1="19.05" y1="21.59" x2="16.51" y2="19.05" width="0.6096" layer="1"/>
-<wire x1="13.97" y1="31.75" x2="13.97" y2="29.21" width="0.6096" layer="1"/>
-<wire x1="13.97" y1="29.21" x2="15.24" y2="27.94" width="0.6096" layer="1"/>
+<wire x1="13.335" y1="31.75" x2="13.335" y2="29.845" width="0.6096" layer="1"/>
+<wire x1="13.335" y1="29.845" x2="15.24" y2="27.94" width="0.6096" layer="1"/>
 </signal>
 </signals>
 </board>
